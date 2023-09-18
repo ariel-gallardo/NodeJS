@@ -1,4 +1,4 @@
-const {DAO: {UserDao}} = require('../Domain');
+const {UserDao} = require('../Domain');
 
 const RegisterUser = async (req) => {
     if(await UserDao.Exists(req.correo)) return false;

@@ -1,4 +1,3 @@
 module.exports = {
-    Models: require('./Models'),
-    DAO: require('./DAO')
+    UserDao: require('./UserDAO')
 }
